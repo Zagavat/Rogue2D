@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 253718383490681468}
   - component: {fileID: 253718383490681463}
   - component: {fileID: 253718383490681462}
+  - component: {fileID: -6745849026623237345}
   m_Layer: 0
   m_Name: House 1
   m_TagString: Untagged
@@ -211,6 +212,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 253718383490681463}
+--- !u!114 &-6745849026623237345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253718383490681469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcc559935b77bed4d90bd3e893aa0b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &826454899795740442
 GameObject:
   m_ObjectHideFlags: 0

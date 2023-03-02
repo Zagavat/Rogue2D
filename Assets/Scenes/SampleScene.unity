@@ -488,7 +488,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d127234a01f594aacea52c9da82fbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 1467797849}
+  GetIn:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1467797853}
+        m_TargetAssemblyTypeName: Alarm, Assembly-CSharp
+        m_MethodName: MeetTheRogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  GetOut:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1467797853}
+        m_TargetAssemblyTypeName: Alarm, Assembly-CSharp
+        m_MethodName: SeeRogueOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!61 &1467797851
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -515,6 +544,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5073018, y: 1.5785024}
   m_EdgeRadius: 0
+--- !u!114 &1467797853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467797847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcc559935b77bed4d90bd3e893aa0b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSource: {fileID: 0}
 --- !u!1 &1494979114
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,5 +845,6 @@ PrefabInstance:
     - {fileID: 253718383490681463, guid: 30b291c7a9509354db9f5b24530cdbc5, type: 3}
     - {fileID: 253718383490681462, guid: 30b291c7a9509354db9f5b24530cdbc5, type: 3}
     - {fileID: 6011396943692388102, guid: 30b291c7a9509354db9f5b24530cdbc5, type: 3}
+    - {fileID: -6745849026623237345, guid: 30b291c7a9509354db9f5b24530cdbc5, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 30b291c7a9509354db9f5b24530cdbc5, type: 3}
